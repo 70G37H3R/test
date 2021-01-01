@@ -4,7 +4,7 @@ wget https://downloads.apache.org/spark/spark-3.0.1/spark-3.0.1-bin-hadoop3.2.tg
 tar xvf spark-3.0.1-bin-hadoop3.2.tgz
 sudo mv spark-3.0.1-bin-hadoop3.2 /opt/spark
 
-sudo ~/.bashrc <<EOF
+sudo cat >> ~/.bashrc <<EOF
 export SPARK_HOME=/opt/spark
 export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
 export PYSPARK_PYTHON=/usr/bin/python3
