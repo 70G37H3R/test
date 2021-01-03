@@ -6,7 +6,7 @@ sudo mv spark-3.0.1-bin-hadoop3.2 /opt/spark
 
 sudo cat >> ~/.bashrc <<EOF
 export SPARK_HOME=/opt/spark
-export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
+export PATH=$PATH:/opt/spark/bin:/opt/spark/sbin
 export PYSPARK_PYTHON=/usr/bin/python3
 EOF
 source ~/.bashrc
