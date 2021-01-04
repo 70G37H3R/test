@@ -8,4 +8,4 @@ sudo pip3 install sklearn
 sudo pip3 install gevent
 sudo pip3 install opencv-python
 start-all.sh 
-spark-submit  --master spark://master:7077 --executor-memory 4g --driver-memory 4g --total-executor-cores 4 --conf “spark.rpc.message.Maxsize=512” resnet_3_node.py 
+spark-submit  --master spark://master:7077 --executor-memory 4g --driver-memory 10g --total-executor-cores 4 --conf “spark.rpc.message.Maxsize=512” resnet_3_node.py 
