@@ -7,4 +7,5 @@ mv /opt/spark/conf/slaves.template /opt/spark/conf/slaves
 cat >> /opt/spark/conf/slaves <<EOF
 slave01
 slave02
+slave03
 EOF
