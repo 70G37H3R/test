@@ -10,3 +10,5 @@ slave01
 slave02
 slave03
 EOF
+
+mv /opt/spark/conf/spark-defaults.conf.template /opt/spark/conf/spark-defaults.conf
