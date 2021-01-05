@@ -13,3 +13,5 @@ export PATH=\$PATH:\$JAVA_HOME/bin
 EOF
 source ~/.bashrc
 
+
+
