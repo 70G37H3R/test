@@ -1,6 +1,6 @@
 mv /opt/spark/conf/spark-env.sh.template /opt/spark/conf/spark-env.sh
 cat >> /opt/spark/conf/spark-env.sh <<EOF
-export SPARK_MASTER_HOST='192.168.100.0'
+export SPARK_MASTER_HOST='change-ip-here'
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 EOF
 
