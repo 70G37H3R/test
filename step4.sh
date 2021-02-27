@@ -1,6 +1,6 @@
-sudo apt install python3-pip
+sudo apt install python3-pip -y
 sudo -H pip3 install --upgrade pip
-sudo pip3 install elephas
+sudo pip3 install elephas 
 sudo pip3 install tensorflow==1.15.0
 sudo pip3 install keras==2.2.4
 sudo pip3 install flask==1.1.2
